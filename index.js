@@ -8,6 +8,7 @@ console.log(a)
 
 let P = 8
 let p = 7
+console.log(p)
 
 new Date
 console.log(Date)
