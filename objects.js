@@ -14,6 +14,7 @@ const cup ={
 };
 
 console.log({color: cup.color});
+console.log('color',cup.color)
 console.log('size', cup.size);
 console.log('temperature',cup.functionality.temperature);
 console.log('texture', cup.texture)
@@ -21,6 +22,7 @@ console.log('texture', cup.texture)
 // add an object
 cup.model = 'glass';
 console.log({cup});
+console.log(cup);
 
 // delete an object
 delete cup.model;
@@ -32,9 +34,11 @@ console.log({cup});
 
 cup.drink();
 
+// the output is keys
 const keys = Object.keys(cup);
 console.log({keys});
 
+// the output is values
 const values = Object.values(cup);
 console.log({values});
 
