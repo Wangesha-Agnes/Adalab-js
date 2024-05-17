@@ -38,6 +38,7 @@ const greeting = (dayOfTheWeek) => {
     }
 };
 
+
 greeting('Tuesday');
 greeting('when')
 
