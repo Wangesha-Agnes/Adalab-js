@@ -1,7 +1,6 @@
 class Person{
     constructor(name,age){
 
-
         this.name = name;
         this.age = age;
 
@@ -14,7 +13,6 @@ class Person{
 const adam = new Person('Adam',30);
 console.log({adam});
 adam.greet();
-
 
 
 class Student extends Person{
